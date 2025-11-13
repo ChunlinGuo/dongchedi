@@ -91,27 +91,23 @@ class BrandCrawler:
         category_list = self.extractor.safe_get(brand_info, 'category_list', default=[])
         recommend_series_list = self.extractor.safe_get(brand_info, 'recommend_series_list', default=[])
 
-        print(f"  innerList 长度: {len(inner_list) if isinstance(inner_list, list) else 'not a list'}")
-        print(f"  outerList 长度: {len(outer_list) if isinstance(outer_list, list) else 'not a list'}")
-        print(f"  category_list 长度: {len(category_list) if isinstance(category_list, list) else 'not a list'}")
-        print(f"  recommend_series_list 长度: {len(recommend_series_list) if isinstance(recommend_series_list, list) else 'not a list'}")
-
-        # 调试：打印第一个分类的键
-        if isinstance(category_list, list) and len(category_list) > 0:
-            print(f"  category_list[0] 的键: {list(category_list[0].keys()) if isinstance(category_list[0], dict) else 'not a dict'}")
 
         # 合并两个列表
         all_series = []
 
         # 解析category_list
         if isinstance(category_list, list):
-            for category in category_list:
+            for i, category in enumerate(category_list):
                 # 注意：这里字段是'list'而不是'series_list'
                 series_list = self.extractor.safe_get(category, 'list', default=[])
                 category_name = self.extractor.safe_get(category, 'category_name', default='未知')
-                print(f"  处理分类: {category_name}, 车系数: {len(series_list)}")
+                if len(series_list) > 0:
+                    print(f"  处理分类: {category_name}, 原始项数: {len(series_list)}")
+
                 for series in series_list:
-                    all_series.append(self._parse_single_series(series, category_name))
+                    parsed = self._parse_single_series(series, category_name)
+                    if parsed:  # 过滤掉None（标签项）
+                        all_series.append(parsed)
 
         # 也可以尝试innerList和outerList
         for list_name, series_type in [('innerList', inner_list), ('outerList', outer_list)]:
@@ -121,7 +117,9 @@ class BrandCrawler:
                     if series_list:
                         print(f"  处理 {list_name}, 车系数: {len(series_list)}")
                         for series in series_list:
-                            all_series.append(self._parse_single_series(series, list_name))
+                            parsed = self._parse_single_series(series, list_name)
+                            if parsed:
+                                all_series.append(parsed)
 
         return all_series
 
@@ -129,22 +127,35 @@ class BrandCrawler:
         """
         解析单个车系信息
         :param series: 车系数据
-        :param origin_type: 车型来源（国产/进口）
+        :param origin_type: 车型来源（分类名称）
         :return: 车系信息字典
         """
+        # 跳过标签类型（type=1075, 1076等）
+        item_type = self.extractor.safe_get(series, 'type')
+        if item_type in [1075, 1076]:
+            return None
+
+        # 真实车系数据在info字段里（type=1002）
+        info = self.extractor.safe_get(series, 'info', default={})
+
         series_info = {
-            'series_id': self.extractor.safe_get(series, 'series_id'),
-            'series_name': self.extractor.safe_get(series, 'series_name'),
-            'origin_type': origin_type,
-            'price_text': self.extractor.safe_get(series, 'price_info', default=''),
-            'min_price': self.extractor.safe_get(series, 'min_price'),
-            'max_price': self.extractor.safe_get(series, 'max_price'),
-            'series_score': self.extractor.safe_get(series, 'series_score'),
-            'level_name': self.extractor.safe_get(series, 'level_name', default=''),
-            'energy_type': self.extractor.safe_get(series, 'energy_type', default=''),
-            'on_sale': self.extractor.safe_get(series, 'on_sale', default=True),
-            'image_url': self.extractor.safe_get(series, 'image_url', default=''),
+            'series_id': self.extractor.safe_get(info, 'series_id'),
+            'series_name': self.extractor.safe_get(info, 'series_name'),
+            'sub_brand_name': self.extractor.safe_get(info, 'sub_brand_name', default=''),
+            'category': origin_type,
+            'official_price': self.extractor.safe_get(info, 'official_price', default=''),
+            'dealer_price': self.extractor.safe_get(info, 'dealer_price', default=''),
+            'price': self.extractor.safe_get(info, 'price', default=''),
+            'dcd_score': self.extractor.safe_get(info, 'dcd_score'),
+            'image_url': self.extractor.safe_get(info, 'image_url', default=''),
+            'motor_id': self.extractor.safe_get(info, 'motor_id'),
+            'business_status': self.extractor.safe_get(info, 'business_status'),
         }
+
+        # 提取top_tag信息
+        top_tag = self.extractor.safe_get(info, 'top_tag', default={})
+        if top_tag:
+            series_info['top_tag'] = self.extractor.safe_get(top_tag, 'text', default='')
 
         # 清理None值和空字符串
         series_info = {k: v for k, v in series_info.items() if v not in [None, '']}
@@ -187,22 +198,6 @@ class BrandCrawler:
             print("✗ 无法获取pageProps")
             return None, None
 
-        # 打印pageProps的键（用于调试）
-        print(f"\n页面数据包含的键: {list(page_props.keys())}")
-
-        # 打印brandInfo结构
-        if 'brandInfo' in page_props:
-            print(f"\nbrandInfo包含的键: {list(page_props['brandInfo'].keys()) if isinstance(page_props['brandInfo'], dict) else 'not a dict'}")
-
-        # 打印车系列表的位置
-        for key in ['innerList', 'outerList', 'seriesList', 'series']:
-            if key in page_props:
-                data = page_props[key]
-                if isinstance(data, list) and len(data) > 0:
-                    print(f"\n{key} 是列表，长度={len(data)}, 第一项的键: {list(data[0].keys()) if isinstance(data[0], dict) else 'not a dict'}")
-                else:
-                    print(f"\n{key}: {type(data)}")
-
         # 4. 解析品牌信息
         print("\n正在解析品牌信息...")
         brand_info = self.parse_brand_info(page_props)
@@ -221,7 +216,10 @@ class BrandCrawler:
         if series_list:
             print("\n车系列表:")
             for i, series in enumerate(series_list[:5], 1):  # 只显示前5个
-                print(f"  {i}. {series.get('series_name', '未知')} - {series.get('price_text', '未知价格')}")
+                name = series.get('series_name', '未知')
+                price = series.get('official_price') or series.get('price') or series.get('dealer_price', '未知价格')
+                score = series.get('dcd_score', '-')
+                print(f"  {i}. {name} | 价格: {price} | 懂车分: {score}")
             if len(series_list) > 5:
                 print(f"  ... (还有 {len(series_list) - 5} 个车系)")
 
