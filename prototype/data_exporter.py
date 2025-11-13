@@ -43,6 +43,110 @@ class DataExporter:
         print(f"✓ Excel文件已保存: {filepath}")
         return str(filepath)
 
+    def export_with_configs(self, brand_info, series_list, car_list, config_list, filename=None):
+        """
+        导出包含车型配置的完整Excel文件
+        :param brand_info: 品牌信息字典
+        :param series_list: 车系列表
+        :param car_list: 车型列表
+        :param config_list: 配置列表（包含intelligent等字段）
+        :param filename: 文件名（可选）
+        :return: 保存的文件路径
+        """
+        if not filename:
+            brand_name = brand_info.get('brand_name', 'unknown')
+            timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+            filename = f"{brand_name}_完整配置_{timestamp}.xlsx"
+
+        filepath = self.output_dir / filename
+
+        # 创建Excel写入器
+        with pd.ExcelWriter(filepath, engine='openpyxl') as writer:
+            # Sheet 1: 品牌信息
+            brand_df = pd.DataFrame([brand_info])
+            brand_df.to_excel(writer, sheet_name='品牌信息', index=False)
+
+            # Sheet 2: 车系列表
+            if series_list:
+                series_df = pd.DataFrame(series_list)
+                series_df.to_excel(writer, sheet_name='车系列表', index=False)
+
+            # Sheet 3: 车型列表
+            if car_list:
+                car_df = pd.DataFrame(car_list)
+                car_df.to_excel(writer, sheet_name='车型列表', index=False)
+
+            # Sheet 4: 智能化配置（重点！）
+            if config_list:
+                intelligent_rows = []
+                for config in config_list:
+                    model_info = config.get('model_info', {})
+                    intelligent = config.get('intelligent', {})
+
+                    for param_name, param_data in intelligent.items():
+                        row = {
+                            '车系名称': model_info.get('series_name', ''),
+                            '车型名称': model_info.get('car_name', ''),
+                            '车型ID': model_info.get('car_id', ''),
+                            '官方价格': model_info.get('official_price', ''),
+                            '年款': model_info.get('car_year', ''),
+                            '参数名称': param_name,
+                            '参数值': param_data.get('value', ''),
+                            '配置类型': param_data.get('type', ''),
+                            '图标': param_data.get('icon', ''),
+                        }
+                        intelligent_rows.append(row)
+
+                if intelligent_rows:
+                    intelligent_df = pd.DataFrame(intelligent_rows)
+                    intelligent_df.to_excel(writer, sheet_name='智能化配置', index=False)
+
+            # Sheet 5: 辅助驾驶配置
+            if config_list:
+                adas_rows = []
+                for config in config_list:
+                    model_info = config.get('model_info', {})
+                    adas = config.get('adas', {})
+
+                    for param_name, param_data in adas.items():
+                        row = {
+                            '车系名称': model_info.get('series_name', ''),
+                            '车型名称': model_info.get('car_name', ''),
+                            '车型ID': model_info.get('car_id', ''),
+                            '参数名称': param_name,
+                            '参数值': param_data.get('value', ''),
+                            '配置类型': param_data.get('type', ''),
+                        }
+                        adas_rows.append(row)
+
+                if adas_rows:
+                    adas_df = pd.DataFrame(adas_rows)
+                    adas_df.to_excel(writer, sheet_name='辅助驾驶配置', index=False)
+
+            # Sheet 6: 电池配置
+            if config_list:
+                battery_rows = []
+                for config in config_list:
+                    model_info = config.get('model_info', {})
+                    battery = config.get('battery', {})
+
+                    for param_name, param_data in battery.items():
+                        row = {
+                            '车系名称': model_info.get('series_name', ''),
+                            '车型名称': model_info.get('car_name', ''),
+                            '车型ID': model_info.get('car_id', ''),
+                            '参数名称': param_name,
+                            '参数值': param_data.get('value', ''),
+                        }
+                        battery_rows.append(row)
+
+                if battery_rows:
+                    battery_df = pd.DataFrame(battery_rows)
+                    battery_df.to_excel(writer, sheet_name='电池配置', index=False)
+
+        print(f"✓ 完整配置Excel文件已保存: {filepath}")
+        return str(filepath)
+
     def export_to_json(self, brand_info, series_list, filename=None):
         """
         导出为JSON文件
