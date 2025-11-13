@@ -1,0 +1,32 @@
+[
+  {
+    "car_id": 250188,
+    "car_name": "430舒享版",
+    "official_price": 8.98
+  },
+  {
+    "car_id": 249481,
+    "car_name": "550舒享版",
+    "official_price": 9.58
+  },
+  {
+    "car_id": 249482,
+    "car_name": "550悦享版",
+    "official_price": 10.38
+  },
+  {
+    "car_id": 249483,
+    "car_name": "650悦享版",
+    "official_price": 10.98
+  },
+  {
+    "car_id": 248021,
+    "car_name": "550激光雷达版",
+    "official_price": 11.38
+  },
+  {
+    "car_id": 248020,
+    "car_name": "650激光雷达版",
+    "official_price": 11.98
+  }
+]

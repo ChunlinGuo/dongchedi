@@ -1,0 +1,38 @@
+[
+  {
+    "title": "基础性能",
+    "eval_id": 7553866248061194000,
+    "eval_id_str": "7553866248061194302",
+    "outter_eval_type": 3,
+    "car_list": [
+      {
+        "car_id": 249482,
+        "car_name": "2025款 550悦享版",
+        "price_info": {
+          "price": "10.38万",
+          "unit_text": "万",
+          "text": "10.38万",
+          "color": "#FFCC32"
+        },
+        "eval_id": 7553866248061194000,
+        "eval_id_str": "7553866248061194302",
+        "video_info": null
+      },
+      {
+        "car_id": 249483,
+        "car_name": "2025款 650悦享版",
+        "price_info": {
+          "price": "10.98万",
+          "unit_text": "万",
+          "text": "10.98万",
+          "color": "#FFCC32"
+        },
+        "eval_id": 7555045382779048000,
+        "eval_id_str": "7555045382779047998",
+        "video_info": null
+      }
+    ],
+    "video_info": null,
+    "sub_tab_list": null
+  }
+]

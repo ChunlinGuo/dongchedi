@@ -1,0 +1,140 @@
+[
+  {
+    "card_type": 0,
+    "dealer_id": 52061,
+    "dealer_id_v2": "dcd_52061",
+    "dealer_name": "零跑汽车北京亚运村店",
+    "dealer_full_name": "北京北巴华运汽车销售服务有限公司",
+    "verification": {
+      "icon_url": "http://p3-dcd.byteimg.com/motor-dealer-image/dealer_youzhi_icon.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+      "show": true,
+      "text": "懂车帝紧密合作商家，优质服务保障"
+    },
+    "dealer_price": "8.98万起",
+    "background": "https://p9-dcd-sign.byteimg.com/motor-img/bc27595047db43d099d98d44cdca3fb8~tplv-f042mdwyw7-original:0:0.image?lk3s=2887166a&x-expires=1765633537&x-signature=mrAGb0LuRqqTiNsgmNWuKFk4ObA%3D&psm=motor.dealer.core",
+    "address": "北京市昌平区北七家镇东三旗村村北北辰亚运村汽车交易市场内A三区3号",
+    "label_list": [
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "售本市"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "儿童游乐设施"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "试乘试驾"
+      }
+    ],
+    "brand_ids": [
+      207
+    ],
+    "sub_brand_ids": [
+      268
+    ],
+    "promotion_list": [
+      {
+        "icon": "http://p3-dcd.byteimg.com/motor-dealer-image/dealer_quan.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+        "text": "赠送价值14680元综合优惠",
+        "type": "quan"
+      }
+    ],
+    "phone": ""
+  },
+  {
+    "card_type": 0,
+    "dealer_id": 65979,
+    "dealer_id_v2": "dcd_65979",
+    "dealer_name": "零跑汽车北京五方天雅店",
+    "dealer_full_name": "北京易腾华运汽车销售有限公司",
+    "verification": {
+      "icon_url": "http://p9-dcd.byteimg.com/motor-dealer-image/dealer_youzhi_icon.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+      "show": true,
+      "text": "懂车帝紧密合作商家，优质服务保障"
+    },
+    "dealer_price": "8.98万起",
+    "background": "https://p9-dcd-sign.byteimg.com/motor-img/b8d5de454c9940ac85ffc6c0af139331~tplv-f042mdwyw7-original:0:0.image?lk3s=2887166a&x-expires=1765633538&x-signature=%2FGUQ28pG7sXs12zwGcJQ9t50Eow%3D&psm=motor.dealer.core",
+    "address": "北京市朝阳区王四营乡五方桥西南角五方天雅互联网加汽车产品市场B1区一层01号",
+    "label_list": [
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "售本市"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "试乘试驾"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "儿童乐园"
+      }
+    ],
+    "brand_ids": [
+      207
+    ],
+    "sub_brand_ids": [
+      268
+    ],
+    "promotion_list": [
+      {
+        "icon": "http://p3-dcd.byteimg.com/motor-dealer-image/dealer_quan.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+        "text": "赠送价值14680元综合优惠",
+        "type": "quan"
+      }
+    ],
+    "phone": ""
+  },
+  {
+    "card_type": 0,
+    "dealer_id": 66153,
+    "dealer_id_v2": "dcd_66153",
+    "dealer_name": "零跑汽车北京体验中心京密路店",
+    "dealer_full_name": "零跑汽车北京体验中心京密路店",
+    "verification": {
+      "icon_url": "http://p3-dcd.byteimg.com/motor-dealer-image/dealer_youzhi_icon.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+      "show": true,
+      "text": "懂车帝紧密合作商家，优质服务保障"
+    },
+    "dealer_price": "8.98万起",
+    "background": "https://p3-dcd-sign.byteimg.com/motor-img/ec350410cb9b490e88347916bb517088~tplv-f042mdwyw7-original:0:0.image?lk3s=2887166a&x-expires=1765633538&x-signature=2CSrCvvfYaD%2FaTb5hHYcZRey9pk%3D&psm=motor.dealer.core",
+    "address": "北京市密云区十里堡镇鑫达摩托院内",
+    "label_list": [
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "售本市"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "试乘试驾"
+      },
+      {
+        "text_color": "#1F2129",
+        "bg_color": "",
+        "text": "二手车"
+      }
+    ],
+    "brand_ids": [
+      207
+    ],
+    "sub_brand_ids": [
+      268
+    ],
+    "promotion_list": [
+      {
+        "icon": "http://p3-dcd.byteimg.com/motor-dealer-image/dealer_quan.png~tplv-f042mdwyw7-original:0:0.image?psm=motor.pc_car.api",
+        "text": "赠送价值14680元综合优惠",
+        "type": "quan"
+      }
+    ],
+    "phone": ""
+  }
+]

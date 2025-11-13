@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Keep small result files but ignore large debug dumps
+prototype/logs/*_data.json
+prototype/logs/raw_*.json
+prototype/logs/debug_*.html
+
+# But keep important output files
+!prototype/logs/*_car_ids.json
+!prototype/logs/demo_config_v2_output.json

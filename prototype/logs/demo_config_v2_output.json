@@ -1,0 +1,1477 @@
+{
+  "model_info": {
+    "car_id": "250188",
+    "car_name": "430舒享版",
+    "series_id": "9266",
+    "series_name": "零跑B01",
+    "official_price": "8.98万",
+    "car_year": "2025"
+  },
+  "intelligent": {
+    "连续性语音识别": {
+      "key": "voice_recognition",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "语音助手唤醒词": {
+      "key": "voice_wake_up_word",
+      "value": "你好小零",
+      "icon_text": ""
+    },
+    "车联网": {
+      "key": "car_networking",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "car_intelligent_chip_高通骁龙8155": {
+      "key": "car_intelligent_chip_高通骁龙8155",
+      "value": "高通骁龙8155",
+      "icon_text": "●标配"
+    },
+    "智能调光天幕": {
+      "key": "light_sensing_canopy",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "语音识别控制系统": {
+      "key": "speech_recognition_system",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "语音免唤醒功能": {
+      "key": "voice_wake_up_free",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "OTA升级": {
+      "key": "ota_upgrade",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "电动机总扭矩(N·m)": {
+      "key": "total_electric_torque",
+      "value": "175",
+      "icon_text": ""
+    },
+    "电动机总功率(kW)": {
+      "key": "total_electric_power",
+      "value": "100",
+      "icon_text": ""
+    },
+    "car_intelligent_system_Leapmotor OS": {
+      "key": "car_intelligent_system_Leapmotor OS",
+      "value": "Leapmotor OS",
+      "icon_text": "●标配"
+    }
+  },
+  "adas": {
+    "上坡辅助(HAC)": {
+      "key": "uphill_support",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "车道保持辅助系统": {
+      "key": "lane_keeping_assist",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "cruise": {
+      "key": "cruise",
+      "value": "定速巡航",
+      "icon_text": "●标配"
+    },
+    "转向辅助灯": {
+      "key": "steer_assist_light",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "刹车辅助(EBA/BA等)": {
+      "key": "brake_assist",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "adaptive_cruise": {
+      "key": "adaptive_cruise",
+      "value": "自适应巡航",
+      "icon_text": "●标配"
+    },
+    "辅助驾驶级别": {
+      "key": "automatic_drive_level",
+      "value": "L2级",
+      "icon_text": "●标配"
+    },
+    "并线辅助": {
+      "key": "line_support",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车道居中保持": {
+      "key": "lane_center",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "疲劳驾驶提示": {
+      "key": "fatigue_driving_warning",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "full_speed_adaptive_cruise": {
+      "key": "full_speed_adaptive_cruise",
+      "value": "全速自适应巡航",
+      "icon_text": "●标配"
+    },
+    "记忆泊车": {
+      "key": "memory_parking",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "导航辅助驾驶": {
+      "key": "navigation_assisted_driving",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "自动变道辅助": {
+      "key": "auto_road_change",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "自动泊车入位": {
+      "key": "auto_park_entry",
+      "value": "标配",
+      "icon_text": "●标配"
+    }
+  },
+  "battery": {
+    "slow_charge_position_v5_5": {
+      "key": "slow_charge_position_v5_5",
+      "value": "右侧油箱位",
+      "icon_text": ""
+    },
+    "VTOL最大对外放电功率": {
+      "key": "max_external_discharge_power",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "battery_temperature_management_system_heating": {
+      "key": "battery_temperature_management_system_heating",
+      "value": "低温加热",
+      "icon_text": "●标配"
+    },
+    "电池容量(kWh)": {
+      "key": "battery_capacity",
+      "value": "43.9",
+      "icon_text": ""
+    },
+    "电池能量密度(Wh/kg)": {
+      "key": "battery_energy_density",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "battery_temperature_management_system_cooling": {
+      "key": "battery_temperature_management_system_cooling",
+      "value": "液态冷却",
+      "icon_text": "●标配"
+    },
+    "quick_charge_position_v5_5": {
+      "key": "quick_charge_position_v5_5",
+      "value": "右侧油箱位",
+      "icon_text": ""
+    },
+    "快充电量(%)": {
+      "key": "fast_charge_electricity",
+      "value": "30-80",
+      "icon_text": ""
+    },
+    "quick_charge_interface": {
+      "key": "quick_charge_interface",
+      "value": "快充接口",
+      "icon_text": "●标配"
+    },
+    "电芯品牌": {
+      "key": "battery_brand",
+      "value": "国轩高科",
+      "icon_text": ""
+    },
+    "充电时间(小时)": {
+      "key": "battery_charge_time",
+      "value": "快充0.3小时\n慢充3.8小时",
+      "icon_text": ""
+    },
+    "电池组质保": {
+      "key": "battery_warranty",
+      "value": "首任车主终身质保(责任免除条款以官方为准)",
+      "icon_text": ""
+    },
+    "手机无线充电": {
+      "key": "mobile_wireless_charging",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "纯电续航里程(km)CLTC": {
+      "key": "cltc_recharge_mileage",
+      "value": "430",
+      "icon_text": ""
+    },
+    "电池充电倍率": {
+      "key": "battery_charging_rate",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "纯电续航里程(km)工信部": {
+      "key": "recharge_mileage",
+      "value": "430",
+      "icon_text": ""
+    },
+    "VTOV最大对外放电功率": {
+      "key": "vtov_max_external_discharge_power",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "电池类型": {
+      "key": "battery_type",
+      "value": "磷酸铁锂电池",
+      "icon_text": ""
+    }
+  },
+  "motor": {
+    "电机类型": {
+      "key": "electric_type",
+      "value": "永磁/同步",
+      "icon_text": ""
+    },
+    "110V/220V/230V电源插座": {
+      "key": "power_outlet",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "转向类型": {
+      "key": "power_steering_type",
+      "value": "电动助力",
+      "icon_text": ""
+    },
+    "百公里耗电量(kWh/100km)": {
+      "key": "power_consumption",
+      "value": "11.4",
+      "icon_text": ""
+    },
+    "driving_assist_op_system_Leapmotor Pilot": {
+      "key": "driving_assist_op_system_Leapmotor Pilot",
+      "value": "Leapmotor Pilot",
+      "icon_text": "●标配"
+    },
+    "电机布局": {
+      "key": "electric_layout",
+      "value": "后置",
+      "icon_text": ""
+    },
+    "驱动电机数": {
+      "key": "electric_drive_number",
+      "value": "单电机",
+      "icon_text": ""
+    },
+    "后电动机最大扭矩(N·m)": {
+      "key": "rear_electric_max_torque",
+      "value": "175",
+      "icon_text": ""
+    },
+    "front_usb_typec_max_charging_power_15": {
+      "key": "front_usb_typec_max_charging_power_15",
+      "value": "前排15W",
+      "icon_text": ""
+    },
+    "最大扭矩(N·m)": {
+      "key": "energy_elect_max_torque",
+      "value": "175",
+      "icon_text": ""
+    },
+    "VTOL移动电站功能": {
+      "key": "vtol_power_station",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "最大功率(kW)": {
+      "key": "energy_elect_max_power",
+      "value": "100(136Ps)",
+      "icon_text": ""
+    },
+    "后电动机最大功率(kW)": {
+      "key": "rear_electric_max_power",
+      "value": "100",
+      "icon_text": ""
+    },
+    "电动机总马力(Ps)": {
+      "key": "front_electric_max_horsepower",
+      "value": "136",
+      "icon_text": ""
+    },
+    "行李舱12V电源接口": {
+      "key": "baggage_12v_power_outlet",
+      "value": "",
+      "icon_text": "-无"
+    }
+  },
+  "body": {
+    "main_drive_height_adjustment": {
+      "key": "main_drive_height_adjustment",
+      "value": "高低调节",
+      "icon_text": "●标配"
+    },
+    "长x宽x高(mm)": {
+      "key": "length_width_height",
+      "value": "4770x1880x1490",
+      "icon_text": ""
+    },
+    "轴距(mm)": {
+      "key": "wheelbase",
+      "value": "2735",
+      "icon_text": ""
+    },
+    "高(mm)": {
+      "key": "height",
+      "value": "1490",
+      "icon_text": ""
+    },
+    "高精度地图": {
+      "key": "high_precision_map",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "长(mm)": {
+      "key": "length",
+      "value": "4770",
+      "icon_text": ""
+    },
+    "大灯高度调节": {
+      "key": "headlight_height_adjustment",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "满载质量(kg)": {
+      "key": "full_load_weight",
+      "value": "1940",
+      "icon_text": ""
+    },
+    "宽(mm)": {
+      "key": "width",
+      "value": "1880",
+      "icon_text": ""
+    },
+    "map_brand_高德": {
+      "key": "map_brand_高德",
+      "value": "高德",
+      "icon_text": "●标配"
+    },
+    "整备质量(kg)": {
+      "key": "curb_weight",
+      "value": "1550",
+      "icon_text": ""
+    },
+    "亚米级高精定位系统": {
+      "key": "high_precision_position_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "最高车速(km/h)": {
+      "key": "max_speed",
+      "value": "150",
+      "icon_text": ""
+    }
+  },
+  "other": {
+    "main_drive_backrest_adjustment": {
+      "key": "main_drive_backrest_adjustment",
+      "value": "靠背角度",
+      "icon_text": "●标配"
+    },
+    "热泵管理系统": {
+      "key": "heat_pump_management_system",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "日间行车灯": {
+      "key": "daytime_light",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "AQS空气质量管理系统": {
+      "key": "aqs_air_quality_management_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "温度分区控制": {
+      "key": "temperature_partition_control",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "drive_mode_3": {
+      "key": "drive_mode_3",
+      "value": "标准舒适",
+      "icon_text": "●标配"
+    },
+    "车内遮阳帘": {
+      "key": "window_sunshade",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内化妆镜": {
+      "key": "car_window_sunshade_mirror",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车窗防夹手功能": {
+      "key": "window_anti_clip_function",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "最小离地间隙(mm)": {
+      "key": "min_clearance",
+      "value": "140",
+      "icon_text": ""
+    },
+    "内后视镜功能": {
+      "key": "inside_mirror_functional",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内香氛装置": {
+      "key": "car_fragrance_device",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "front_parking_radar": {
+      "key": "front_parking_radar",
+      "value": "前",
+      "icon_text": "●标配"
+    },
+    "mobile_system_11": {
+      "key": "mobile_system_11",
+      "value": "Carlink",
+      "icon_text": "●标配"
+    },
+    "前制动器类型": {
+      "key": "front_brake_type",
+      "value": "通风盘式",
+      "icon_text": ""
+    },
+    "前桥限滑方式": {
+      "key": "front_slip_method",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "应用商店": {
+      "key": "app_store",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "车门开启方式": {
+      "key": "door_open_way",
+      "value": "平开门",
+      "icon_text": ""
+    },
+    "mobile_remote_control_8": {
+      "key": "mobile_remote_control_8",
+      "value": "服务预约",
+      "icon_text": "●标配"
+    },
+    "儿童座椅接口(ISOFIX)": {
+      "key": "child_seat_interface",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "信号灯识别": {
+      "key": "signal_recognition",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "座椅材质": {
+      "key": "seat_material",
+      "value": "仿皮",
+      "icon_text": "●标配"
+    },
+    "厂商": {
+      "key": "sub_brand_name",
+      "value": "零跑汽车",
+      "icon_text": ""
+    },
+    "官方百公里加速时间(s)": {
+      "key": "acceleration_time",
+      "value": "9.4",
+      "icon_text": ""
+    },
+    "第二排独立座椅": {
+      "key": "second_independent_seat",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "卫星导航系统": {
+      "key": "gps",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "后桥限滑方式": {
+      "key": "rear_slip_method",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "方向盘电动调节": {
+      "key": "elec_steer_wheel_adjustment",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "空气悬挂": {
+      "key": "air_suspension",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "官方指导价": {
+      "key": "official_price",
+      "value": "8.98万",
+      "icon_text": ""
+    },
+    "reversing_camera": {
+      "key": "reversing_camera",
+      "value": "倒车影像",
+      "icon_text": "●标配"
+    },
+    "voice_wake_up_recognition_2": {
+      "key": "voice_wake_up_recognition_2",
+      "value": "副驾驶",
+      "icon_text": "●标配"
+    },
+    "匝道自动驶出（入）": {
+      "key": "auto_road_out_in",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "座位数(个)": {
+      "key": "seat_count",
+      "value": "5",
+      "icon_text": ""
+    },
+    "安全轮胎": {
+      "key": "explosion_tire",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "中控屏尺寸(英寸)": {
+      "key": "center_screen_size",
+      "value": "14.6",
+      "icon_text": "●标配"
+    },
+    "AR实景导航": {
+      "key": "ar_reality_navigation",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "主动闭合式进气格栅": {
+      "key": "active_closed_inlet_grid",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "大灯随动转向(AFS)": {
+      "key": "headlamp_follow_up",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "隐藏式门把手": {
+      "key": "hidden_door_handle",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "侧安全气帘": {
+      "key": "side_air_curtain",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车身稳定系统(ESP/DSC等)": {
+      "key": "body_stability_system",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "front_collision_warning": {
+      "key": "front_collision_warning",
+      "value": "前方碰撞预警",
+      "icon_text": "●标配"
+    },
+    "后排独立空调": {
+      "key": "rear_independent_air_conditioning",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车载电视": {
+      "key": "car_tv",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "可加热/制冷杯架": {
+      "key": "hot_cold_cup_holder",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "可加热喷水嘴": {
+      "key": "heated_nozzle",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "主动式DMS疲劳检测": {
+      "key": "active_dms_fatigue_detection",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "mobile_remote_control_7": {
+      "key": "mobile_remote_control_7",
+      "value": "充电管理",
+      "icon_text": "●标配"
+    },
+    "前大灯雨雾模式": {
+      "key": "headlamp_rain_fog_mode",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "中央差速器锁止功能": {
+      "key": "central_differential_lock",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "mobile_remote_control_5": {
+      "key": "mobile_remote_control_5",
+      "value": "车辆监控",
+      "icon_text": "●标配"
+    },
+    "data_network_1": {
+      "key": "data_network_1",
+      "value": "4G",
+      "icon_text": "●标配"
+    },
+    "胎压监测系统": {
+      "key": "tire_pressure_system",
+      "value": "胎压显示",
+      "icon_text": "●标配"
+    },
+    "制动能量回收系统": {
+      "key": "brake_energy_regeneration",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "outer_camera_pixel_200万*1,130万*4": {
+      "key": "outer_camera_pixel_200万*1,130万*4",
+      "value": "200万*1,130万*4",
+      "icon_text": "●标配"
+    },
+    "大灯延时关闭": {
+      "key": "headlamp_delay_off",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "车身结构": {
+      "key": "body_struct",
+      "value": "三厢车",
+      "icon_text": ""
+    },
+    "上市时间": {
+      "key": "market_time",
+      "value": "2025.07",
+      "icon_text": ""
+    },
+    "方向盘调节": {
+      "key": "steer_wheel_adjustment",
+      "value": "上下+前后",
+      "icon_text": "●标配"
+    },
+    "Wi-Fi热点": {
+      "key": "wifi",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后轮胎规格尺寸": {
+      "key": "rear_tire_size",
+      "value": "225/45 R18",
+      "icon_text": ""
+    },
+    "远程启动": {
+      "key": "engine_remote_start",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "座椅电动调节": {
+      "key": "seat_electrical_adjustment",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "前轮胎规格尺寸": {
+      "key": "front_tire_size",
+      "value": "225/45 R18",
+      "icon_text": ""
+    },
+    "天窗类型": {
+      "key": "skylight_type",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车窗一键升降": {
+      "key": "window_one_key_lift",
+      "value": "全车",
+      "icon_text": "●标配"
+    },
+    "主动降噪": {
+      "key": "active_noise_reduction",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内中控锁": {
+      "key": "central_locking_car",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "挡位数": {
+      "key": "stalls",
+      "value": "1",
+      "icon_text": ""
+    },
+    "driving_assist_image": {
+      "key": "driving_assist_image",
+      "value": "透明影像",
+      "icon_text": "●标配"
+    },
+    "mobile_system_8": {
+      "key": "mobile_system_8",
+      "value": "HUAWEI HiCar",
+      "icon_text": "●标配"
+    },
+    "mobile_remote_control_4": {
+      "key": "mobile_remote_control_4",
+      "value": "数字钥匙",
+      "icon_text": "●标配"
+    },
+    "panoramic_camera": {
+      "key": "panoramic_camera",
+      "value": "360°全景影像",
+      "icon_text": "●标配"
+    },
+    "multimedia_interface_1": {
+      "key": "multimedia_interface_1",
+      "value": "USB/Type-C",
+      "icon_text": "●标配"
+    },
+    "遥控移动车辆": {
+      "key": "remote_control_move",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "空调控制方式": {
+      "key": "air_control_model",
+      "value": "自动",
+      "icon_text": "●标配"
+    },
+    "车内PM2.5过滤装置": {
+      "key": "pm25_filtrating_equipment",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "后排杯架": {
+      "key": "rear_cup_holder",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "remote_key_6": {
+      "key": "remote_key_6",
+      "value": "NFC/RFID钥匙",
+      "icon_text": "●标配"
+    },
+    "变速箱描述": {
+      "key": "gearbox_description",
+      "value": "电动车单速变速箱",
+      "icon_text": ""
+    },
+    "道路救援服务": {
+      "key": "position_service",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "感应式后尾门": {
+      "key": "inductive_back_door",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内生命体征检测": {
+      "key": "vital_signs_detection",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "雨量感应式雨刷": {
+      "key": "rain_induction_wiper",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "风阻系数(Cd)": {
+      "key": "drag_coefficient",
+      "value": "0.197",
+      "icon_text": ""
+    },
+    "vice_drive_backrest_adjustment": {
+      "key": "vice_drive_backrest_adjustment",
+      "value": "靠背角度",
+      "icon_text": "●标配"
+    },
+    "变速箱类型": {
+      "key": "gearbox_type",
+      "value": "固定齿比变速箱",
+      "icon_text": ""
+    },
+    "首任车主保修期限": {
+      "key": "first_owner_period",
+      "value": "终身质保(责任免除条款以官方为准)",
+      "icon_text": ""
+    },
+    "前雾灯": {
+      "key": "front_fog_light",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "内置行车记录仪": {
+      "key": "built_in_tachograph",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "rear_parking_radar": {
+      "key": "rear_parking_radar",
+      "value": "后",
+      "icon_text": "●标配"
+    },
+    "无钥匙进入": {
+      "key": "keyless_entry",
+      "value": "主驾驶位",
+      "icon_text": "●标配"
+    },
+    "定制选装": {
+      "key": "user_custom_pkg",
+      "value": "可选外观、内饰、轮毂、制动器",
+      "icon_text": ""
+    },
+    "铝合金轮毂": {
+      "key": "alloy_wheel",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "整体主动转向系统": {
+      "key": "overall_turn",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "超声波雷达数量(个)": {
+      "key": "ultrasonic_radar",
+      "value": "12",
+      "icon_text": "●标配"
+    },
+    "运动外观套件": {
+      "key": "sports_appearance_kit",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后排座椅放倒比例": {
+      "key": "second_row_seat_down_ratio",
+      "value": "40:60",
+      "icon_text": "●标配"
+    },
+    "负离子发生器": {
+      "key": "negative_ion_generator",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "steer_wheel_material_2": {
+      "key": "steer_wheel_material_2",
+      "value": "皮质",
+      "icon_text": "●标配"
+    },
+    "中控屏幕材质": {
+      "key": "center_console_screen_material",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "前轮距(mm)": {
+      "key": "front_track",
+      "value": "1600",
+      "icon_text": ""
+    },
+    "第二排座椅整体调节": {
+      "key": "second_seat_control_functional",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车外摄像头数量(个)": {
+      "key": "camera_count",
+      "value": "5",
+      "icon_text": "●标配"
+    },
+    "大灯清洗功能": {
+      "key": "headlight_clean_function",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "主动式环境氛围灯": {
+      "key": "active_ambient_light",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内氛围灯": {
+      "key": "interior_light",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "单踏板模式": {
+      "key": "single_footboard_mode",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后轮距(mm)": {
+      "key": "rear_track",
+      "value": "1600",
+      "icon_text": ""
+    },
+    "电磁感应悬挂": {
+      "key": "electromagnetic_induct_suspension",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "面部识别": {
+      "key": "facial_recognition",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后制动器类型": {
+      "key": "rear_brake_type",
+      "value": "实心盘式",
+      "icon_text": ""
+    },
+    "vice_airbag": {
+      "key": "vice_airbag",
+      "value": "副驾驶位",
+      "icon_text": "●标配"
+    },
+    "模拟声浪": {
+      "key": "voice_simulate",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "自动驻车(AUTOHOLD)": {
+      "key": "auto_park",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "前悬挂形式": {
+      "key": "front_suspension_form",
+      "value": "麦弗逊式独立悬挂",
+      "icon_text": ""
+    },
+    "电动吸合门": {
+      "key": "electric_door",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "导航路况信息展示": {
+      "key": "navigation_system",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "vice_drive_back_and_forth_adjustment": {
+      "key": "vice_drive_back_and_forth_adjustment",
+      "value": "前后移动",
+      "icon_text": "●标配"
+    },
+    "front_armrest": {
+      "key": "front_armrest",
+      "value": "前排",
+      "icon_text": "●标配"
+    },
+    "多层隔音玻璃": {
+      "key": "multilayer_soundproof_glass",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "lcd_dashboard_size_8.8": {
+      "key": "lcd_dashboard_size_8.8",
+      "value": "8.8",
+      "icon_text": "●标配"
+    },
+    "车载冰箱": {
+      "key": "car_refrigerator",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "vice_drive_pillow_adjustment": {
+      "key": "vice_drive_pillow_adjustment",
+      "value": "头枕",
+      "icon_text": "●标配"
+    },
+    "音响品牌": {
+      "key": "sound_brand",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "ABS防抱死": {
+      "key": "abs_anti_lock",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "级别": {
+      "key": "jb",
+      "value": "紧凑型车",
+      "icon_text": ""
+    },
+    "第二排座椅局部调节": {
+      "key": "second_local_seat",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "自适应远近光": {
+      "key": "adaptive_light",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "多指飞屏操控": {
+      "key": "multi_finger_screen_control",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "下沉式后排座椅收折": {
+      "key": "stowable_third_row_seats",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "整车保修期限": {
+      "key": "period",
+      "value": "4年或12万公里",
+      "icon_text": ""
+    },
+    "center_screen_resolution_2.5K (2560x1400)": {
+      "key": "center_screen_resolution_2.5K (2560x1400)",
+      "value": "2.5K (2560x1400)",
+      "icon_text": ""
+    },
+    "抬头显示系统(HUD)": {
+      "key": "header_display_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "V2X通讯": {
+      "key": "v2x_communication",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "电动机描述": {
+      "key": "electric_description",
+      "value": "纯电动 136马力",
+      "icon_text": ""
+    },
+    "驻车制动类型": {
+      "key": "park_brake_type",
+      "value": "电子驻车",
+      "icon_text": ""
+    },
+    "循迹倒车": {
+      "key": "track_reverse",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车载冰箱功能": {
+      "key": "car_fridge_feature",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "驱动方式": {
+      "key": "driver_form",
+      "value": "后置后驱",
+      "icon_text": ""
+    },
+    "行李舱容积(L)": {
+      "key": "baggage_volume",
+      "value": "460",
+      "icon_text": ""
+    },
+    "手势控制功能": {
+      "key": "gesture_control_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车载空气净化器": {
+      "key": "car_purifier",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后雨刷": {
+      "key": "rear_wiper",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "前排膝部气囊": {
+      "key": "main_vice_knee_airbag",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "无钥匙启动": {
+      "key": "keyless_start",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "front_electric_window": {
+      "key": "front_electric_window",
+      "value": "前排",
+      "icon_text": "●标配"
+    },
+    "电能当量燃料消耗量(L/100km)": {
+      "key": "e_energy_equivalent_fuel_consumption",
+      "value": "1.32",
+      "icon_text": ""
+    },
+    "车体结构": {
+      "key": "car_body_structure",
+      "value": "承载式",
+      "icon_text": ""
+    },
+    "远光灯": {
+      "key": "high_headlamp_type",
+      "value": "LED",
+      "icon_text": "●标配"
+    },
+    "灯光投影技术": {
+      "key": "light_projection_technology",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "电动后尾门位置记忆": {
+      "key": "electric_back_door_memory",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车内摄像头像素": {
+      "key": "inner_camera_pixel",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "液晶仪表样式": {
+      "key": "lcd_dashboard_type",
+      "value": "全液晶",
+      "icon_text": "●标配"
+    },
+    "备胎规格": {
+      "key": "spare_tire_specification",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后排多媒体控制": {
+      "key": "rear_touch_control_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "电动扰流板": {
+      "key": "electric_spoiler",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "陡坡缓降(HDC)": {
+      "key": "steep_slope",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "gear_shift_mode_6": {
+      "key": "gear_shift_mode_6",
+      "value": "电子式怀挡",
+      "icon_text": "●标配"
+    },
+    "可变悬挂调节": {
+      "key": "variable_suspension",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "front_usb_typec_interface_count_": {
+      "key": "front_usb_typec_interface_count_",
+      "value": "前排2个",
+      "icon_text": "●标配"
+    },
+    "哨兵（千里眼）模式": {
+      "key": "sentinel_mode",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "声纹识别": {
+      "key": "voiceprint_recognition",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "最小转弯半径": {
+      "key": "min_turning_radius",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "行车电脑屏幕": {
+      "key": "driving_computer_display_screen",
+      "value": "彩色",
+      "icon_text": "●标配"
+    },
+    "K歌功能": {
+      "key": "karaoke",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "车门数(个)": {
+      "key": "door_nums",
+      "value": "4",
+      "icon_text": ""
+    },
+    "main_drive_back_and_forth_adjustment": {
+      "key": "main_drive_back_and_forth_adjustment",
+      "value": "前后移动",
+      "icon_text": "●标配"
+    },
+    "被动行人保护": {
+      "key": "passive_pedestrian_protection",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "main_airbag": {
+      "key": "main_airbag",
+      "value": "主驾驶位",
+      "icon_text": "●标配"
+    },
+    "前排座椅功能": {
+      "key": "front_seat_functional",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车辆召唤功能": {
+      "key": "car_call",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "multifunction_steer_wheel": {
+      "key": "multifunction_steer_wheel",
+      "value": "多功能控制",
+      "icon_text": "●标配"
+    },
+    "rear_electric_window": {
+      "key": "rear_electric_window",
+      "value": "后排",
+      "icon_text": "●标配"
+    },
+    "voice_wake_up_recognition_1": {
+      "key": "voice_wake_up_recognition_1",
+      "value": "主驾驶",
+      "icon_text": "●标配"
+    },
+    "蓝牙/车载电话": {
+      "key": "bluetooth_and_car_phone",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "灯光特色功能": {
+      "key": "light_special_function",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "舒适制动": {
+      "key": "comfortable_braking",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "道路交通标识识别": {
+      "key": "road_traffic_sign_recognition",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "近光灯": {
+      "key": "low_headlamp_type",
+      "value": "LED",
+      "icon_text": "●标配"
+    },
+    "后排隐私玻璃": {
+      "key": "backside_privacy_glass",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "情绪识别": {
+      "key": "emotion_recognition",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "安全带未系提示": {
+      "key": "seat_belt_prompted",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "front_airbag": {
+      "key": "front_airbag",
+      "value": "前排",
+      "icon_text": "●标配"
+    },
+    "remote_key_5": {
+      "key": "remote_key_5",
+      "value": "手机蓝牙钥匙",
+      "icon_text": "●标配"
+    },
+    "自动大灯": {
+      "key": "auto_headlamp",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "center_screen_ppi_200": {
+      "key": "center_screen_ppi_200",
+      "value": "200",
+      "icon_text": "●标配"
+    },
+    "第二排座椅功能": {
+      "key": "rear_seat_functional",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "前车驶离提醒": {
+      "key": "forward_car_departure_reminder",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "低速行车警示音": {
+      "key": "low_speed_driving_warning",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "扬声器数量(个)": {
+      "key": "speaker",
+      "value": "6",
+      "icon_text": "●标配"
+    },
+    "可变转向比系统": {
+      "key": "variable_steer_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "电动后尾门": {
+      "key": "electric_back_door",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后悬挂形式": {
+      "key": "rear_suspension_form",
+      "value": "多连杆式独立悬挂",
+      "icon_text": ""
+    },
+    "牵引力控制(TCS/ASR等)": {
+      "key": "traction_control",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "可见即可说": {
+      "key": "visible_to_say",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "空气悬挂类型": {
+      "key": "air_suspension_v2",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "车顶行李架": {
+      "key": "roof_racks",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "指纹识别": {
+      "key": "fingerprint_recognition",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "夜视系统": {
+      "key": "night_vision_system",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "运动风格座椅": {
+      "key": "sport_style_seat",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "mobile_remote_control_6": {
+      "key": "mobile_remote_control_6",
+      "value": "远程控制",
+      "icon_text": "●标配"
+    },
+    "无框设计车门": {
+      "key": "frameless_design_door",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "拖挂钩": {
+      "key": "drag_hook",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "主动刹车": {
+      "key": "active_brake",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "中央安全气囊": {
+      "key": "front_near_center_airbag",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "前风挡电加热": {
+      "key": "front_windshield_electric_heating",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "后排出风口": {
+      "key": "rear_exhaust",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "能源类型": {
+      "key": "fuel_form",
+      "value": "纯电动",
+      "icon_text": ""
+    },
+    "后排液晶屏": {
+      "key": "rear_lcd_screen",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "6万公里保养总成本预估": {
+      "key": "maintain_cost",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "drive_mode_1": {
+      "key": "drive_mode_1",
+      "value": "运动",
+      "icon_text": "●标配"
+    },
+    "lane_warning_system": {
+      "key": "lane_warning_system",
+      "value": "车道偏离预警",
+      "icon_text": "●标配"
+    },
+    "第二排小桌板": {
+      "key": "second_row_small_desktop",
+      "value": "",
+      "icon_text": "-无"
+    },
+    "exter_mirror_elec_adjustment": {
+      "key": "exter_mirror_elec_adjustment",
+      "value": "电动调节",
+      "icon_text": "●标配"
+    },
+    "main_drive_pillow_adjustment": {
+      "key": "main_drive_pillow_adjustment",
+      "value": "头枕",
+      "icon_text": "●标配"
+    },
+    "制动力分配(EBD/CBC等)": {
+      "key": "brake_force",
+      "value": "标配",
+      "icon_text": "●标配"
+    },
+    "老板键": {
+      "key": "co_pilot_rear_adjustable_button",
+      "value": "",
+      "icon_text": "-无"
+    }
+  }
+}
