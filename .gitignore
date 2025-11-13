@@ -28,3 +28,8 @@ prototype/logs/debug_*.html
 # But keep important output files
 !prototype/logs/*_car_ids.json
 !prototype/logs/demo_config_v2_output.json
+
+# Ignore generated Excel output files (can be regenerated)
+prototype/data/*.xlsx
+prototype/data/*.json
+prototype/data/*.csv
