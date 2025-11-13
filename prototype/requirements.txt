@@ -1,0 +1,11 @@
+# 快速原型依赖包
+
+# 网页请求
+requests==2.31.0
+
+# HTML解析
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# 数据处理
+pandas==2.1.3
